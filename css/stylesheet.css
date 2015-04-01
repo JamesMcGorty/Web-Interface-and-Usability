@@ -8,16 +8,17 @@ body {
 
 
 h1 {
-	color: #232323;
+	color: #FF0000;
+	font-family: slant, Verdana, sans-serif;
 	text-align:center;
-	font-family: Arial, Verdana, sans-serif;
-	text-shadow: 2px 2px 2px #6C6C6C;
 }
 
 h2{
 	color: #232323;
 	font-family: Arial, Verdana, sans-serif;
 	text-shadow: 2px 2px 2px #6C6C6C;
+
+	
 
 }
 	
@@ -40,4 +41,9 @@ a{
 
 a:hover{
 	color:#FF0000;
+}
+
+@font-face {
+    font-family: 'SLANT';
+    src: url('../fonts/SLANT.woff');
 }
